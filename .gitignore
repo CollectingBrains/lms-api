@@ -1,0 +1,33 @@
+# Ignore all .log files
+*.log
+
+# Ignore the 'temp' directory and its contents
+temp/
+
+# Ignore the 'node_modules' directory (common in JavaScript projects)
+node_modules/
+
+# Ignore specific files
+.env
+config.local.js
+
+# Ignore all files with the .tmp extension
+*.tmp
+
+# Ignore build output directories
+build/
+dist/
+
+# Ignore IDE-specific files and directories (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Negate a pattern: ignore all .log files except 'important.log'
+*.log
+!important.log
+
+# Ignore files or directories named 'foo' anywhere in the project
+**/foo
+
+# Ignore everything inside the 'cache' directory
+cache/**
